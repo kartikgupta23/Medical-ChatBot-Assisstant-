@@ -1,0 +1,22 @@
+numpy==1.23.5
+ctransformers
+sentence-transformers
+pinecone
+pinecone-client
+langchain
+langchain-community
+langchain-huggingface
+langchain-groq
+faiss-cpu
+flask
+pypdf
+python-dotenv
+google-generativeai
+sounddevice
+scipy
+Pillow
+pyttsx3
+SpeechRecognition
+timm
+streamlit
+-e .
