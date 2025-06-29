@@ -40,7 +40,7 @@ vectorstore = PineconeVectorStore(index_name=index_name, embedding=embeddings)
 # Define a Prompt Template to Answer Questions
 PROMPT = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
 
-llm = ChatGroq(temperature=0.3, groq_api_key=os.getenv("GROQ_API_KEY"), model_name="llama-3.1-70b-versatile")
+llm = ChatGroq(temperature=0.3, api_key=os.getenv("GROQ_API_KEY"), model="llama3-70b-8192")
 
 # Initialize the RetrievalQA chain 
 qa = RetrievalQA.from_chain_type(

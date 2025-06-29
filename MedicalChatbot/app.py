@@ -3,7 +3,9 @@ import torch
 import torchvision.transforms as transforms
 import numpy as np
 from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
+#from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.embeddings import HuggingFaceEmbeddings
+
 from transformers import pipeline
 from dotenv import load_dotenv
 from PIL import Image
