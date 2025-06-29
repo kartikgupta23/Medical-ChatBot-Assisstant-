@@ -78,6 +78,8 @@ MIT License. See [LICENSE](./LICENSE).
 Pull requests and issues are welcome!
 
 ## 📧 Contact
-For questions, open an issue or email the author (see LICENSE).
+For questions, open an issue or email me directly,
+Email: kartikeyagupta1435@gmail.com
+Linkedln: linkedln.com/kartikeyagupta19
 
 
